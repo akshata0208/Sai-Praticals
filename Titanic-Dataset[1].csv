@@ -1,0 +1,361 @@
+<br />
+<b>Warning</b>:  readfile(/disk/dpcoe/filedir/ea/08/ea08b483790c2a7bc9b95b0f923526f8e60eae44): failed to open stream: No such file or directory in <b>/home/dpesmoodle/public_html/dpcoe/lib/filelib.php</b> on line <b>2169</b><br />
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Error</title>
+    <link rel="icon" href="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/theme/1696502022/favicon" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Error" />
+<link rel="stylesheet" type="text/css" href="https://dpesmoodle.com/dpcoe/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://dpesmoodle.com/dpcoe/theme/styles.php/adaptable/1696502022_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/dpesmoodle.com\/dpcoe","homeurl":{},"sesskey":"puGcvpuUsD","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1696502022","slasharguments":1,"theme":"adaptable","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1696502023","admin":"admin","svgicons":true,"usertimezone":"Asia\/Kolkata","courseId":479,"courseContextId":19924,"contextid":20028,"contextInstanceId":13968,"langrev":1696502023,"templaterev":"1696502023"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/dpesmoodle.com\/dpcoe\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/dpesmoodle.com\/dpcoe\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/dpesmoodle.com\/dpcoe\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/dpesmoodle.com\/dpcoe\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/dpesmoodle.com\/dpcoe\/theme\/yui_combo.php?m\/1696502023\/","combine":true,"comboBase":"https:\/\/dpesmoodle.com\/dpcoe\/theme\/yui_combo.php?","ext":false,"root":"m\/1696502023\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/dpesmoodle.com\/dpcoe\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/dpesmoodle.com\/dpcoe\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1696502023\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/dpesmoodle.com\/dpcoe\/lib\/javascript.php\/1696502023\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/dpesmoodle.com\/dpcoe\/lib\/javascript.php\/1696502023\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+    <!-- CSS print media -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:site" value="Dhole Patil College Of Engineering, Pune" />
+    <meta name="twitter:title" value="Error" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Error" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta name="og:site_name" value="Dhole Patil College Of Engineering, Pune" />
+
+    <!-- Chrome, Firefox OS and Opera on Android topbar color -->
+    <meta name="theme-color" content="#009688" />
+
+    <!-- Windows Phone topbar color -->
+    <meta name="msapplication-navbutton-color" content="#009688" />
+
+    <!-- iOS Safari topbar color -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#009688" />
+
+    </head>
+<body  id="page-site-index" class="format-topics course path-site chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam dpesmoodle-com--dpcoe pagelayout-incourse course-479 context-20028 cmid-13968 category-124 theme_adaptable two-column nozoom header-style1 has-page-header  nomobilenavigation">
+
+<div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://dpesmoodle.com/dpcoe/lib/javascript.php/1696502023/lib/polyfills/polyfill.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/core/jquery-3.6.0.min.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/theme_adaptable/pace-min.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/theme_adaptable/jquery-flexslider-min.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/theme_adaptable/tickerme.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/theme_adaptable/jquery-easing-min.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/theme/jquery.php/theme_adaptable/adaptable_v2_1_1_2.js"></script>
+<script src="https://dpesmoodle.com/dpcoe/lib/javascript.php/1696502023/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div id="page-wrapper">
+    <div id="page" class="fullin showblockicons standard">
+    <header id="adaptable-page-header-wrapper">
+    <div id="header1" class="above-header stickything">
+        <div class="container">
+            <nav class="navbar navbar-expand btco-hover-menu">
+                <div id="adaptable-page-header-nav-drawer" data-region="drawer-toggle" class="d-lg-none mr-3">
+                    <button id="drawer" aria-expanded="false" aria-controls="nav-drawer" type="button" class="nav-link float-sm-left mr-1" data-side="left">
+                        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+                        <span class="sr-only">Side panel</span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                <div class="my-auto m-1"></div>
+                    <ul class="navbar-nav ml-auto my-auto">
+
+                        <li class="nav-item navbarsearchsocial mx-md-1 my-auto d-md-block d-lg-none my-auto">
+                            <div id="searchinput-navbar-681c52ffa826b681c52ff9f4b2225" class="simplesearchform">
+    <div class="collapse" id="searchform-navbar">
+        <form autocomplete="off" action="https://dpesmoodle.com/dpcoe/course/search.php" method="get" accept-charset="utf-8" class="mform form-inline searchform-navbar">
+                <input type="hidden" name="context" value="20028">
+            <div class="input-group">
+                <label for="searchinput-681c52ffa826b681c52ff9f4b2225">
+                    <span class="sr-only">Course search</span>
+                </label>
+                    <input type="text"
+                       id="searchinput-681c52ffa826b681c52ff9f4b2225"
+                       class="form-control withclear"
+                       placeholder="Course search"
+                       aria-label="Course search"
+                       name="q"
+                       data-region="input"
+                       autocomplete="off"
+                    >
+                    <a class="btn btn-close"
+                        data-action="closesearch"
+                        data-toggle="collapse"
+                        href="#searchform-navbar"
+                        role="button"
+                    >
+                        <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Close</span>
+                    </a>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-submit" data-action="submit">
+                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Course search</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <a
+        class="btn btn-open rounded-0 nav-link"
+        data-toggle="collapse"
+        data-action="opensearch"
+        href="#searchform-navbar"
+        role="button"
+        aria-expanded="false"
+        aria-controls="searchform-navbar"
+        title="Toggle search input"
+    >
+        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+        <span class="sr-only">Toggle search input</span>
+    </a>
+</div>
+                        </li>
+
+                        <li id="nav-popover-container" class="my-auto mx-md-1 d-flex"><div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="1247"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link icon-no-margin"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-681c52ffa92f4681c52ff9f4b2227"
+        aria-haspopup="true"
+        aria-label="Show notification window with no new notifications"
+        tabindex="0">
+                <i class="icon fa fa-bell-o fa-fw "  title="Toggle notifications menu" role="img" aria-label="Toggle notifications menu"></i>
+        <div class="count-container " data-region="count-container"
+        aria-label="There are 15 unread notifications">15</div>
+
+    </div>
+    <div 
+        id="popover-region-container-681c52ffa92f4681c52ff9f4b2227"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Notification window"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notifications</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Mark all as read"
+           data-action="mark-all-read"
+           role="button"
+           aria-label="Mark all as read">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true"  ></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" role="img" aria-label="Loading"></i></span>
+        </a>
+            <a href="https://dpesmoodle.com/dpcoe/message/notificationpreferences.php"
+               title="Notification preferences"
+               aria-label="Notification preferences">
+                <i class="icon fa fa-cog fa-fw " aria-hidden="true"  ></i></a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" role="img" aria-label="Loading"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://dpesmoodle.com/dpcoe/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">See all</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="pull-right popover-region popover-region-messages collapsed">
+    <a id="message-drawer-toggle-681c52ffa9cc2681c52ff9f4b2228" class="nav-link d-inline-block popover-region-toggle position-relative" href="#"
+            role="button">
+        <i class="icon fa fa-comment-o fa-fw "  title="Toggle messaging drawer" role="img" aria-label="Toggle messaging drawer"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="There are 0 unread conversations">0</div>
+    </a>
+</div></li>
+
+                        <li class="nav-item dropdown ml-2 my-auto"></li>
+
+                        
+
+                        <li class="nav-item dropdown ml-3 ml-md-2 mr-2 mr-md-0"><a class="nav-link dropdown-toggle my-auto" role="button" href="#"
+id="usermenu" data-toggle="dropdown"
+aria-haspopup="true" aria-expanded="false"
+aria-controls="usermenu-dropdown"
+aria-label="User menu"
+title="AKSHATA RATHOD">
+        <span class="d-none d-md-inline-block mx-1">AKSHATA RATHOD</span>
+    <span class="userinitials size-35">AR</span>
+</a>
+
+<div class="dropdown-menu dropdown-menu-right" role="menu"
+id="usermenu-dropdown"
+aria-labelledby="usermenu" >
+    <a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/my" title="Dashboard"><i aria-hidden="true" class="fa fa-dashboard"></i>Dashboard</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/user/profile.php" title="View profile"><i aria-hidden="true" class="fa fa-user"></i>View profile</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/user/edit.php" title="Edit profile"><i aria-hidden="true" class="fa fa-cog"></i>Edit profile</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/grade/report/overview/index.php" title="Grades"><i aria-hidden="true" class="fa fa-list-alt"></i>Grades</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/user/preferences.php" title="Preferences"><i aria-hidden="true" class="fa fa-cog"></i>Preferences</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/calendar/view.php" title="Calendar"><i aria-hidden="true" class="fa fa-calendar"></i>Calendar</a><a class="dropdown-item" href="https://dpesmoodle.com/dpcoe/login/logout.php?sesskey=puGcvpuUsD" title="Log out"><i aria-hidden="true" class="fa fa-sign-out"></i>Log out</a>
+</div></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="page-header" class="container d-none d-lg-block">
+        <div class="row d-flex justify-content-start align-items-center h-100 ">
+            <div class="col-lg-8 p-0">
+                <div class="bd-highlight">
+                    
+                    <div id="sitetitle" class="bd-highlight d-none d-lg-inline-block"><h1 id="coursetitle">2023-24 Sem 2 Data S ...</h1></div>
+                </div>
+                <div id="course-header">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                    <div class="headersearch pagelayoutoriginal d-none d-lg-block float-right">
+    <div id="searchinput-navbar-681c52ffa860b681c52ff9f4b2226" class="simplesearchform">
+    <div class="collapse" id="searchform-navbar">
+        <form autocomplete="off" action="https://dpesmoodle.com/dpcoe/course/search.php" method="get" accept-charset="utf-8" class="mform form-inline searchform-navbar">
+                <input type="hidden" name="context" value="20028">
+            <div class="input-group">
+                <label for="searchinput-681c52ffa860b681c52ff9f4b2226">
+                    <span class="sr-only">Course search</span>
+                </label>
+                    <input type="text"
+                       id="searchinput-681c52ffa860b681c52ff9f4b2226"
+                       class="form-control withclear"
+                       placeholder="Course search"
+                       aria-label="Course search"
+                       name="q"
+                       data-region="input"
+                       autocomplete="off"
+                    >
+                    <a class="btn btn-close"
+                        data-action="closesearch"
+                        data-toggle="collapse"
+                        href="#searchform-navbar"
+                        role="button"
+                    >
+                        <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Close</span>
+                    </a>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-submit" data-action="submit">
+                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+                        <span class="sr-only">Course search</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <a
+        class="btn btn-open rounded-0 nav-link"
+        data-toggle="collapse"
+        data-action="opensearch"
+        href="#searchform-navbar"
+        role="button"
+        aria-expanded="false"
+        aria-controls="searchform-navbar"
+        title="Toggle search input"
+    >
+        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
+        <span class="sr-only">Toggle search input</span>
+    </a>
+</div>
+</div>
+            </div>
+
+        </div>
+    </div>
+
+        <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+            <div id="nav-drawer-inner">
+                <nav class="list-group">
+                    <ul class="list-unstyled components">
+                        <li class="m-l-0"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/?redirect=0" data-key="" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer"><div class="m-l-0"><i class="fa fa-home fa-lg"></i>Home</div></a></li><li class="m-l-0"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/my/index.php" data-key="" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer"><div class="m-l-0"><i class="fa fa-dashboard fa-lg"></i>Dashboard</div></a></li><li class="m-l-0"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/calendar/view.php" data-key="" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer"><div class="m-l-0"><i class="fa fa-calendar fa-lg"></i>Events</div></a></li><li class="m-l-0"><a href="#main-navigation-drawer1" class="list-group-item dropdown-toggle" aria-haspopup="true" data-target="#" data-toggle="collapse" title="My courses"><i class="fa fa-briefcase fa-lg"></i>My courses</a><ul class="collapse" id="main-navigation-drawer1"><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=684" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-exclamation-circle"></i>DELD-B Arati_1</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=184" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE_Feedback_System</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=181" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE_CESA_VotingSystem</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=129" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-exclamation-circle"></i>DELD-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=128" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>OOP-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=127" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DM-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=126" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>FDS-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=125" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>OOP Lab-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=46" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>CGR-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=42" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DELD-A</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=328" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>CoC</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=298" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE-F</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=200" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>PPL</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=199" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=197" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>MP</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=196" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DSA-B</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=194" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>EM-III</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=449" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 TE Feedback System</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=443" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 Sem 1 CN</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=338" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer1"><div class="m-l-1"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 Sem1 SPOS</div></a></li></ul></li><li class="m-l-0"><a href="#main-navigation-drawer2" class="list-group-item dropdown-toggle" aria-haspopup="true" data-target="#" data-toggle="collapse" title="This course"><i class="fa fa-sitemap fa-lg"></i><span class="menutitle">This course</span></a><ul class="collapse" id="main-navigation-drawer2"><li class="m-l-0"><a href="#main-navigation-drawer23" class="list-group-item dropdown-toggle" aria-haspopup="true" data-target="#" data-toggle="collapse" title="Sections"><i class="icon sections-menu fa fa-list-ol fa-lg"></i>Sections</a><ul class="collapse" id="main-navigation-drawer23"><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-0" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">General</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-1" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">ACADEMIC CALENDER</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-2" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">CEP</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-3" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">EXAM SECTION</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-4" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT 1</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-5" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT 2</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-6" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">PPT DSBDA UNIT 3,4,5,6</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-7" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT 3</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-8" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT 4</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-9" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT -5</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-10" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">UNIT-6</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-11" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">DSBDA LAB PRACTICALS</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-12" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">NPTEL video link Data science course of 4 weeks</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-13" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer23"><div class="m-l-1">E-BOOKS OF DSBDA-URL LINK</div></a></li></ul></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/user/index.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><i class="icon fa fa-users fa-lg"></i>Participants</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/grade/report/index.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>Grades</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/mod/assign/index.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/assign/1696502022/monologo" />Assignments</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/mod/forum/index.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/forum/1696502022/monologo" />Forums</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/mod/hvp/index.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/hvp/1696502022/monologo" />Interactive Content</div></a></li><li class="m-l-1"><a class="list-group-item list-group-item-action" href="https://dpesmoodle.com/dpcoe/course/resources.php?id=479" data-key="" data-isexpandable="0" data-indent="1" data-showdivider="0" data-type="1" data-nodetype="1"data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="main-navigation-drawer3"><div class="m-l-1"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/mod_page/1696502022/monologo" />Resources</div></a></li></ul></li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </nav>
+        
+                <nav class="list-group m-t-1">
+                    
+                </nav>
+            </div>
+        </div>
+        
+        <div id="main-navbar" class="d-none d-lg-block">
+            <div class="container">
+                <div class="navbar navbar-expand btco-hover-menu">
+                    <nav aria-label="Site links">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a title="Home" class="nav-link" href="https://dpesmoodle.com/dpcoe/?redirect=0"><i class="fa fa-home fa-lg"></i>Home</a></li><li class="nav-item"><a title="Dashboard" class="nav-link" href="https://dpesmoodle.com/dpcoe/my/index.php"><i class="fa fa-dashboard fa-lg"></i>Dashboard</a></li><li class="nav-item"><a title="Events" class="nav-link" href="https://dpesmoodle.com/dpcoe/calendar/view.php"><i class="fa fa-calendar fa-lg"></i>Events</a></li><li class="nav-item dropdown my-auto"><a href="#" class="nav-link dropdown-toggle my-auto" role="button" id="main-navigation0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdownmain-navigation0" data-target="#" data-toggle="dropdown" title="My courses"><i class="fa fa-briefcase fa-lg"></i>My courses</a><ul role="menu" class="dropdown-menu" id="dropdownmain-navigation0" aria-labelledby="main-navigation0"><li><a title="CO-SE-B(Digital Electronics and Logic Design) copy 1" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=684"><i aria-hidden="true" class="fa fa-exclamation-circle"></i>DELD-B Arati_1</a></li><li><a title="SE Feedback System" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=184"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE_Feedback_System</a></li><li><a title="SE CESA Voting System" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=181"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE_CESA_VotingSystem</a></li><li><a title="CO-SE-B(Digital Electronics and Logic Design)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=129"><i aria-hidden="true" class="fa fa-exclamation-circle"></i>DELD-B</a></li><li><a title="CO-SE-B (Object Oriented Programming)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=128"><i aria-hidden="true" class="fa fa-graduation-cap"></i>OOP-B</a></li><li><a title="CO-SE-B(Discrete Mathematics)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=127"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DM-B</a></li><li><a title="SE-CO-B-(Fundamentals of Data Structures)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=126"><i aria-hidden="true" class="fa fa-graduation-cap"></i>FDS-B</a></li><li><a title="CO-SE-B(OOP lab)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=125"><i aria-hidden="true" class="fa fa-graduation-cap"></i>OOP Lab-B</a></li><li><a title="CO-SE- Div-B ( Computer Graphics ) " class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=46"><i aria-hidden="true" class="fa fa-graduation-cap"></i>CGR-B</a></li><li><a title="CO-SE-A(Digital Electronics and Logic Design)" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=42"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DELD-A</a></li><li><a title="Code of Conduct" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=328"><i aria-hidden="true" class="fa fa-graduation-cap"></i>CoC</a></li><li><a title="SE Feedback System" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=298"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE-F</a></li><li><a title="Principles of Programming Languages" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=200"><i aria-hidden="true" class="fa fa-graduation-cap"></i>PPL</a></li><li><a title="Software Engineering- SE-B" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=199"><i aria-hidden="true" class="fa fa-graduation-cap"></i>SE-B</a></li><li><a title="Microprocessor" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=197"><i aria-hidden="true" class="fa fa-graduation-cap"></i>MP</a></li><li><a title="Data Structure and Algorithms - SE-B" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=196"><i aria-hidden="true" class="fa fa-graduation-cap"></i>DSA-B</a></li><li><a title="Engineering Mathematics" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=194"><i aria-hidden="true" class="fa fa-graduation-cap"></i>EM-III</a></li><li><a title="2023-24 TE Feedback System" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=449"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 TE Feedback System</a></li><li><a title="Computer Networks" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=443"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 Sem 1 CN</a></li><li><a title="System Programming and Operating System" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=338"><i aria-hidden="true" class="fa fa-graduation-cap"></i>2023-24 Sem1 SPOS</a></li></ul></li><li class="nav-item dropdown my-auto"><a href="https://dpesmoodle.com/dpcoe/" class="nav-link dropdown-toggle my-auto" role="button" id="main-navigation0" aria-haspopup="true" aria-expanded="false" aria-controls="dropdownmain-navigation0" data-target="https://dpesmoodle.com/dpcoe/" data-toggle="dropdown" title="This course"><i class="fa fa-sitemap fa-lg"></i><span class="menutitle">This course</span></a><ul role="menu" class="dropdown-menu" id="dropdownmain-navigation0" aria-labelledby="main-navigation0"><li class="nav-item dropdown my-auto"><a href="#" class="nav-link dropdown-toggle my-auto" role="button" id="main-navigation00" aria-haspopup="true" aria-expanded="false" aria-controls="dropdownmain-navigation00" data-target="#" data-toggle="dropdown" title="Sections"><i class="icon sections-menu fa fa-list-ol fa-lg"></i>Sections</a><ul role="menu" class="dropdown-menu" id="dropdownmain-navigation00" aria-labelledby="main-navigation00"><li><a title="General" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-0">General</a></li><li><a title="ACADEMIC CALENDER" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-1">ACADEMIC CALENDER</a></li><li><a title="CEP" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-2">CEP</a></li><li><a title="EXAM SECTION" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-3">EXAM SECTION</a></li><li><a title="UNIT 1" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-4">UNIT 1</a></li><li><a title="UNIT 2" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-5">UNIT 2</a></li><li><a title="PPT DSBDA UNIT 3,4,5,6" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-6">PPT DSBDA UNIT 3,4,5,6</a></li><li><a title="UNIT 3" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-7">UNIT 3</a></li><li><a title="UNIT 4" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-8">UNIT 4</a></li><li><a title="UNIT -5" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-9">UNIT -5</a></li><li><a title="UNIT-6" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-10">UNIT-6</a></li><li><a title="DSBDA LAB PRACTICALS" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-11">DSBDA LAB PRACTICALS</a></li><li><a title="NPTEL video link Data science course of 4 weeks" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-12">NPTEL video link Data science course of 4 weeks</a></li><li><a title="E-BOOKS OF DSBDA-URL LINK" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/view.php?id=479#section-13">E-BOOKS OF DSBDA-URL LINK</a></li></ul></li><li><a title="Participants" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/user/index.php?id=479"><i class="icon fa fa-users fa-lg"></i>Participants</a></li><li><a title="Grades" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/grade/report/index.php?id=479"><i class="icon fa fa-table fa-fw " aria-hidden="true"  ></i>Grades</a></li><li><a title="Assignments" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/mod/assign/index.php?id=479"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/assign/1696502022/monologo" />Assignments</a></li><li><a title="Forums" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/mod/forum/index.php?id=479"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/forum/1696502022/monologo" />Forums</a></li><li><a title="Interactive Content" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/mod/hvp/index.php?id=479"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/hvp/1696502022/monologo" />Interactive Content</a></li><li><a title="Resources" class="dropdown-item" href="https://dpesmoodle.com/dpcoe/course/resources.php?id=479"><img class="icon " alt="" aria-hidden="true" src="https://dpesmoodle.com/dpcoe/theme/image.php/adaptable/mod_page/1696502022/monologo" />Resources</a></li></ul></li>
+                                
+                                
+                        </ul>
+                    </nav>
+        
+                    <ul class="navbar-nav ml-auto d-flex flex-wrap">
+        
+        
+        
+                        <li class="nav-item mr-1">
+                            <div id="zoominicon" class="left nav-link" title="Hide blocks" data-hidetitle="Hide blocks" data-showtitle="Show blocks">
+                                <i class="fa fa-lg fa-outdent" aria-hidden="true"></i>
+                                <span class="showhideblocksdesc">Hide blocks</span>
+                            </div>
+                        </li>
+        
+                        <li class="nav-item mx-0 hbll">
+                            <a class="nav-link moodlewidth" href="javascript:void(0);" title="Full screen">
+                                <i class="fa fa-expand fa-lg" aria-hidden="true"></i>
+                                <span class="zoomdesc">Full screen</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-0 sbll">
+                            <a class="nav-link moodlewidth" href="javascript:void(0);" title="Standard view">
+                                <i class="fa fa-compress fa-lg" aria-hidden="true"></i>
+                                <span class="zoomdesc">Standard view</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+</header><div id="ticker-wrap" class="clearfix container d-none d-lg-block"><div class="pull-left" id="ticker-announce">Announcements</div><ul id="ticker"><p><a href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" style="font-size:14.44px;">Click Here</a><span style="font-size:14.44px;"> to Download MOODLE Mobile App for Android device.</span></p>
+         </ul></div>
+<div class="container outercont">
+    <div class="row"><div id="page-second-header" class="col-12 pt-3 pb-3 d-none d-md-flex">
+    <div class="d-flex flex-fill flex-wrap align-items-center">
+        <div id="page-navbar" class="mr-auto">
+            <nav role="navigation" aria-label="Breadcrumb">
+        
